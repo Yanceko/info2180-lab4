@@ -1,0 +1,16 @@
+
+
+.btn {
+    color: rgb(196, 109, 74);
+    background-color: var(--lighterBlue);
+    border: 1px solid var(--lighterBlue);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+  }

@@ -1,8 +1,36 @@
 
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;  
+}
 
+.overview{
+  height:175px;
+  background: #92adcf;
+  text-align: center;
+}
+header{
+  float:center;
+  margin: 20px;
+  color: rgb(255, 0, 0);
+}
+.h1{
+  color: rgb(255, 17, 0);
+}
+.h2{
+  text-align: center;
+  color: rgb(0, 153, 255);
+}
+.layout{
+  height:150px;
+  background: #ffffff;
+  text-align: center;
+  color: rgb(0, 153, 255);
+}
 .btn {
-    color: rgb(196, 109, 74);
-    background-color: var(--lighterBlue);
+    color: rgb(253, 72, 0);
+    background-color: rgb(187, 187, 223);
     border: 1px solid var(--lighterBlue);
     display: inline-block;
     font-weight: 400;

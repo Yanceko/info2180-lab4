@@ -9,10 +9,30 @@
     <script src="app.js"></script>
   </head>
   <body>
+  <section class = "overview">
+  <header>
+    <div class="container" id="Head">
     <h1>Avengers Character Search</h1>
-    <button id="getXml" class="btn">Search</button>
-    <section class="Results">
-            <div class="container">
-                <div class="Result">
-                <h2>Resultt</h2>
-                </div>
+    </div>
+</header>
+  </section>
+
+    <section class="layout">
+    <h2>Search by Full Name or Alias</h2>
+    <form action="" id="frm1" method="post">
+    <div class="form-field">
+      <label for="input">Name:</label>
+
+      <input type="text" id="input" name="input" placeholder="E.g Tony Stark/Ironman">
+      
+      <button id="getXml" class="btn">Search</button>
+    </div>
+    </form>
+    </section>
+
+    <div>
+    <h2> RESULTS </h2>          
+      <p id ="Result"></p>
+    </div>
+  </body>
+</html>    
